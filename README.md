@@ -1,5 +1,6 @@
 # Projekt célja
-Adózási szempontból átlátható és követhető a befektetések értéke.
+A projekt célja egy olyan program írása ami követhetőbbé teszi a kriptovaluta befektetéseket.
+Iránythadó lehet adózási időszakba mivel a befektetett összeg és a jelenlegi érték különbségét is méri összegezve.
 
 # Használati útmutató
 1. main.py és wallet_data.xlsx letöltése
