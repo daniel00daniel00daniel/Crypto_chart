@@ -1,3 +1,6 @@
+# Projekt célja
+Adózási szempontból átlátható és követhető a befektetések értéke.
+
 # Használati útmutató
 1. main.py és wallet_data.xlsx letöltése
 2. Excel táblázat első 3 oszlopának kitöltése:
