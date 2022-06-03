@@ -71,7 +71,7 @@ for cell in column_a:
                 profit_loss.append([((x['quote']['USD']['price']/ws.cell(index, 2).value)-1)*100])
             index+=1
 
-#print(list_for_update_excel)
+print(list_for_update_excel)
 #print(profit_loss)
 
 #######################################
@@ -83,7 +83,7 @@ y = 0
 
 # A jelenlegi árfolyamok mentése #
 
-for i in ws['d2':'d10']:
+for i in ws['d2':'d100']:
     for index, cell in enumerate(i):
         if (x < len(list_for_update_excel)):
             cell.value = list_for_update_excel[x][1]
@@ -91,7 +91,7 @@ for i in ws['d2':'d10']:
 
 # Nyereség/ veszteség mentése #
 
-for i2 in ws['e2':'e10']:
+for i2 in ws['e2':'e100']:
     for index, cell in enumerate(i2):
         if (y < len(profit_loss)):
             cell.value = profit_loss[y][0]
